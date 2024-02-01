@@ -1,0 +1,269 @@
+-- import: fastn-community.github.io/design-system as ds
+
+-- ds.page:
+
+-- header:
+
+-- First-Section:
+
+-- About:
+
+-- Blogs:
+
+-- footer:
+
+-- end: ds.page
+
+
+;; Header Component ---------------------------------------------------------------------
+
+-- component header:
+
+-- ds.section-row:
+margin: $ds.spaces.vertical-gap.extra-large
+flush: full
+inset: $ds.spaces.inset-wide.large
+outer-background.solid: $ds.colors.background.step-2
+spacing: $ds.spaces.horizontal-gap.space-between
+
+-- ds.heading-large: CrypticCanvas
+
+-- ds.row:
+width: fill-container
+spacing: $ds.spaces.horizontal-gap.extra-large
+
+
+-- ds.header-link: Home
+link: /
+
+-- ds.header-link: About
+link: /
+
+-- ds.header-link: Blogs
+link: /
+
+-- ds.header-link: Contact 
+link: /
+
+-- end: ds.row
+
+-- ds.row:
+width: hug-content
+
+-- ds.phosphor-icon-button: Login
+icon: user
+link: /
+
+
+
+-- ds.phosphor-icon-button: Sign Up
+icon: sign-in
+link: /
+
+-- end: ds.row
+
+
+-- end: ds.section-row
+
+-- end: header
+
+;; --------------------------------------------------------------------------------------
+
+;; First-Section Component --------------------------------------------------------------
+
+-- component First-Section:
+
+-- ds.section-row:
+outer-background.solid: $ds.colors.background.step-2
+
+-- ds.column:
+
+-- ds.heading-small: Embark on a tech odyssey with CrypticCanvas, your go-to destination for insightful and cutting-edge technological blogs. Explore curated content that empowers enthusiasts at every level to stay ahead in the ever-evolving world of technology!
+
+-- end: ds.column
+
+-- ftd.image:
+src: https://plus.unsplash.com/premium_photo-1661265944044-bc7248ae54f9?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OXx8YmxvZyUyMGJhY2tncm91bmR8ZW58MHx8MHx8fDA%3D
+width.fixed.percent: 50 
+border-radius.px: 30
+
+-- end: ds.section-row
+
+-- end: First-Section
+
+;; --------------------------------------------------------------------------------------
+
+;; Key-Points Section -------------------------------------------------------------------
+
+-- component About:
+
+-- ds.section-column:
+spacing: $ds.spaces.vertical-gap.medium
+outer-background.solid: $ds.colors.background.step-1
+flush: full
+
+-- ds.heading-small: About: 
+
+-- ds.heading-tiny: Welcome to CrypticCanvas, your go-to destination for an engaging journey through the ever-evolving world of tech. Our blog is a virtual canvas showcasing the latest trends, breakthroughs, and insights. Whether you're a seasoned professional or a curious beginner, CrypticCanvas offers diverse articles, tutorials, and thought-provoking pieces for enthusiasts at every level. From exploring cryptography to delving into the transformative realm of blockchain, our curated content ensures you stay informed and inspired. Join us as we decode mysteries, unravel complexities, and embrace tech possibilities. Empower your journey with knowledge, exploration, and a community of like-minded individuals at CrypticCanvas.
+
+-- end: ds.section-column
+
+-- end: About
+
+;; --------------------------------------------------------------------------------------
+
+;; Blogs component -------------------------------------------------------------------
+
+-- component Blogs:
+
+-- ds.section-column:
+spacing: $ds.spaces.horizontal-gap.medium
+flush: full
+
+-- ds.heading-small: The Blogs: 
+
+-- ds.row:
+background.solid: $ds.colors.custom.four
+shadow: $ds.shadow.large
+
+-- ftd.image: https://images.unsplash.com/photo-1432821596592-e2c18b78144f?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8YmxvZyUyMGJhY2tncm91bmR8ZW58MHx8MHx8fDA%3D
+width.fixed.percent: 40
+height.fixed.px: 250
+border-radius.px: 65
+padding.px: 10
+
+-- ds.heading-tiny: Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint autem non, consequuntur velit doloremque corrupti quod ullam labore recusandae at hic possimus ducimus esse maiores. Deleniti harum animi necessitatibus impedit!
+align: center
+
+-- end: ds.row
+
+-- ds.row:
+background.solid: $ds.colors.custom.four
+shadow: $ds.shadow.large
+
+-- ds.heading-tiny: Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint autem non, consequuntur velit doloremque corrupti quod ullam labore recusandae at hic  ossimus ducimus esse maiores. Deleniti harum animi necessitatibus impedit!
+align: center
+
+-- ftd.image: https://images.unsplash.com/photo-1501504905252-473c47e087f8?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D
+width.fixed.percent: 40
+height.fixed.px: 250
+border-radius.px: 65
+padding.px: 10
+
+-- end: ds.row
+
+-- ds.row:
+background.solid: $ds.colors.custom.five
+shadow: $ds.shadow.large
+
+-- ftd.image: https://images.unsplash.com/photo-1507525428034-b723cf961d3e?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8YmxvZyUyMGJhY2tncm91bmR8ZW58MHx8MHx8fDA%3D
+width.fixed.percent: 40
+height.fixed.px: 250
+border-radius.px: 65
+padding.px: 10
+
+-- ds.heading-tiny: Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint autem non, consequuntur velit doloremque corrupti quod ullam labore recusandae at hic possimus ducimus esse maiores. Deleniti harum animi necessitatibus impedit!
+align: center
+
+-- end: ds.row
+
+-- ds.row:
+background.solid: $ds.colors.custom.four
+shadow: $ds.shadow.large
+
+-- ds.heading-tiny: Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint autem non, consequuntur velit doloremque corrupti quod ullam labore recusandae at hic  ossimus ducimus esse maiores. Deleniti harum animi necessitatibus impedit!
+align: center
+
+-- ftd.image: https://images.unsplash.com/photo-1432821596592-e2c18b78144f?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8YmxvZyUyMGJhY2tncm91bmR8ZW58MHx8MHx8fDA%3D
+width.fixed.percent: 40
+height.fixed.px: 250
+border-radius.px: 65
+padding.px: 10
+
+-- end: ds.row
+
+-- ds.row:
+background.solid: $ds.colors.custom.five
+shadow: $ds.shadow.large
+
+-- ftd.image: https://images.unsplash.com/photo-1501504905252-473c47e087f8?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D
+width.fixed.percent: 40
+height.fixed.px: 250
+border-radius.px: 65
+padding.px: 10
+
+-- ds.heading-tiny: Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint autem non, consequuntur velit doloremque corrupti quod ullam labore recusandae at hic possimus ducimus esse maiores. Deleniti harum animi necessitatibus impedit!
+align: center
+
+-- end: ds.row
+
+-- ds.row:
+background.solid: $ds.colors.custom.four
+shadow: $ds.shadow.large
+
+-- ds.heading-tiny: Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint autem non, consequuntur velit doloremque corrupti quod ullam labore recusandae at hic possimus ducimus esse maiores. Deleniti harum animi necessitatibus impedit!
+align: center
+
+-- ftd.image: https://images.unsplash.com/photo-1507525428034-b723cf961d3e?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8YmxvZyUyMGJhY2tncm91bmR8ZW58MHx8MHx8fDA%3D
+width.fixed.percent: 40
+height.fixed.px: 250
+border-radius.px: 65
+padding.px: 10
+
+-- end: ds.row
+
+-- end: ds.section-column
+
+-- end: Blogs
+
+;; --------------------------------------------------------------------------------------
+
+;; footer component ---------------------------------------------------------------------
+
+-- component footer:
+
+-- ds.section-column:
+margin: $ds.spaces.vertical-gap.small
+flush: full
+inset: $ds.spaces.inset-wide.small
+outer-background.solid: $ds.colors.cta-secondary.text
+spacing: $ds.spaces.vertical-gap.extra-small
+
+-- ds.section-row:
+spacing: $ds.spaces.horizontal-gap.space-between
+
+-- ds.phosphor-icon-button: Your Blogging Journey Awaits!
+icon: globe
+variant: link 
+link: / 
+
+-- ds.row:
+width: hug-content
+height.fixed.px: 10 
+
+-- ds.phosphor-icon-button: GitHub
+icon: github-logo
+variant: link
+link: https://www.github.com/SAKET687
+
+-- ds.phosphor-icon-button: LinkedIn
+icon: linkedin-logo
+variant: link
+link: https://www.linkedin.com/in/saket-srivastava-8776a025a/
+
+-- ds.phosphor-icon-button: Email
+icon: microsoft-outlook-logo
+variant: link
+link: mailto:saketsrivastava1245+contact@gmail.com
+
+-- end: ds.row
+
+-- end: ds.section-row
+
+-- ds.fine-print: Copyright 2024 | All Rights Reserved
+
+-- end: ds.section-column
+
+-- end: footer
+
+;; --------------------------------------------------------------------------------------

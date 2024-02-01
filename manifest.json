@@ -1,0 +1,26 @@
+{
+  "files": {
+    "FASTN.ftd": {
+      "name": "FASTN.ftd",
+      "checksum": "64D04A49C89ECFD923BA762681B79C039DC0EC14E46D99D20E50B0B356248302",
+      "size": 113
+    },
+    "README.md": {
+      "name": "README.md",
+      "checksum": "6144A11AC3771DEDDD365FE1BD7917C97F730077761F496BEFA287BA3CF1BB8A",
+      "size": 38
+    },
+    "index.ftd": {
+      "name": "index.ftd",
+      "checksum": "D953DFDC0121F1CEBFE7EC71E4DE472D8637A3FAF4D6A21C7FCF7A04D228BBAA",
+      "size": 8591
+    },
+    "vercel.json": {
+      "name": "vercel.json",
+      "checksum": "DA7505BE441C7788CC025AF04A6AB4C1F157AD45F76004A3FF3878BA4E9837A1",
+      "size": 177
+    }
+  },
+  "zip_url": "https://github.com/SAKET687/fastn_challenge_9/archive/380c06ea89ebeda094ac8e53be6180304f043f90.zip",
+  "checksum": "4BB8A432F29DFD1337FCBB162EA27D7E792F0D8B473F780A5B543223658E2370"
+}
