@@ -2,8 +2,8 @@
   "files": {
     "FASTN.ftd": {
       "name": "FASTN.ftd",
-      "checksum": "64D04A49C89ECFD923BA762681B79C039DC0EC14E46D99D20E50B0B356248302",
-      "size": 113
+      "checksum": "6EEDDC5F940C25252188E59D6AF2182A35EF536E521FF888AA4CCB31D09754D1",
+      "size": 138
     },
     "README.md": {
       "name": "README.md",
@@ -21,6 +21,6 @@
       "size": 177
     }
   },
-  "zip_url": "https://github.com/SAKET687/fastn_challenge_9/archive/380c06ea89ebeda094ac8e53be6180304f043f90.zip",
-  "checksum": "4BB8A432F29DFD1337FCBB162EA27D7E792F0D8B473F780A5B543223658E2370"
+  "zip_url": "https://github.com/SAKET687/fastn_challenge_9/archive/21eadcc36e9b70dc65e68f6caf9ceb2654de5ca2.zip",
+  "checksum": "E67282FF06696B2506C303DF8FBF07C13E66BBB787B0399D27F1C6776ACDFD0F"
 }
